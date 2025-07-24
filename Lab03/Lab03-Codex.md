@@ -76,6 +76,8 @@ int main()
     printf("\n");
     return 0;
 }
+```
+
 ## TEST CASE
 ### Input
 ```bash
@@ -84,11 +86,13 @@ Enter value[0] : 5
 Enter value[1] : 7
 Enter value[2] : 2
 Enter value[3] : 1
+```
 
 ### Output
 ```bash
 Index:   0  1  2  3 
 Array:   5  7  2  #
+```
 
 
 
