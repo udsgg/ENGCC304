@@ -39,7 +39,7 @@ Input the working hrs:
 Salary amount/hr:
 12300
 ```
-
+<img width="329" height="130" alt="Screenshot 2025-07-26 114911" src="https://github.com/user-attachments/assets/631c6aa5-b564-4920-adb4-ab44f8faeca6" />
 
 ### Output
 ```bash
@@ -47,3 +47,4 @@ Expected Output:
 Employees ID = 001 
 Salary = U$ 49200.00
 ```
+<img width="190" height="60" alt="Screenshot 2025-07-26 114921" src="https://github.com/user-attachments/assets/e4b8f457-c368-496a-939f-21b3f573b149" />
