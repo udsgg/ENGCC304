@@ -35,47 +35,42 @@ printf("%2s ", "#");
 ```c++
 #include <stdio.h>
 #include <math.h>
-#include <vector> //เพิ่มตัว include vector เพื่อใช้ vector แทน array แบบคงที่
 
-int isPrime(int num)
-{
-    if (num < 2)
-        return 0;
-    for (int i = 2; i <= sqrt(num); i++)
-    {
-        if (num % i == 0)
-            return 0;
-    }
-    return 1;
-}
-int main()
-{
-    int n;
-    printf("Enter N : ");
-    scanf("%d", &n);
-    std::vector<int> arr(n);  // ใช้ vector แทน array แบบคงที่
-    for (int i = 0; i < n; i++)
-    {
-        printf("Enter value[%d] : ", i);
-        scanf("%d", &arr[i]);
-    }
-    printf("Index:  ");
-    for (int i = 0; i < n; i++)
-    {
-        printf("%2d ", i);
-    }
-    printf("\n");
-    printf("Array:  ");
-    for (int i = 0; i < n; i++)
-    {
+int isPrime ( int num ) { 
+    if( num < 2 )
+        return 0 ;
+    for ( int i = 2 ; i <= sqrt(num) ; i++ ) {
+        if ( num % i == 0 )
+            return 0 ;
+    }//end for
+    return 1 ; 
+}//end function
+
+int main() {
+    int n ; 
+    printf( " Enter N : " ) ;
+    scanf( "%d" , &n ) ; 
+    int arr[n] ; 
+    for( int i = 0 ; i < n ; i++ ) {
+        printf( " Enter value [ %d ] : " , i ) ; 
+        scanf( "%d" , &arr[i] ) ; 
+    }//end for
+    printf(" Index:  ") ;
+    for ( int i = 0 ; i < n ; i++ ) {
+        printf( "%2d" , i ) ; 
+    }//end for
+    printf( "\n" ) ;
+    printf(" Array:  ") ;
+    for( int i = 0 ; i < n ; i++ ) {
         if (isPrime(arr[i]))
-            printf("%2d ", arr[i]);
+            printf("%2d", arr[i]) ; 
         else
-            printf("%2c ", '#'); // %2s เป็น %2c เพื่อที่แสดงผลลัพธ์ได้ตามตัวอย่าง Array:   5  7  2  # 
-    }
-    printf("\n");
-    return 0;
-}
+            printf( " #" ) ; 
+    }//end for
+    printf("\n") ;
+    
+    return 0 ;
+}//end function
 ```
 
 ## TEST CASE
