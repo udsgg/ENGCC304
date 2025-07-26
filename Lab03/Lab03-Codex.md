@@ -42,9 +42,9 @@ int isPrime ( int num ) {
     for ( int i = 2 ; i <= sqrt(num) ; i++ ) {
         if ( num % i == 0 )
             return 0 ;
-    }//end for
+    }
     return 1 ; 
-}//end function
+}
 
 int main() {
     int n ; 
@@ -65,12 +65,12 @@ int main() {
         if (isPrime(arr[i]))
             printf("%2d", arr[i]) ; 
         else
-            printf( " #" ) ; 
-    }//end for
+            printf( " #" ) ; //ลบ"%2s ",
+    }
     printf("\n") ;
     
     return 0 ;
-}//end function
+}
 ```
 
 ## TEST CASE
