@@ -82,12 +82,12 @@ Enter value[1] : 7
 Enter value[2] : 2
 Enter value[3] : 1
 ```
+![Screenshot (95)](https://github.com/udsgg/ENGCC304/blob/main/Lab03/Screenshot%202025-07-17%20102712.png)
 
 ### Output
 ```bash
 Index:   0  1  2  3 
 Array:   5  7  2  #
 ```
-
-
+![Screenshot (95)](https://github.com/udsgg/ENGCC304/blob/main/Lab03/Screenshot%202025-07-26%20105136.png)
 
