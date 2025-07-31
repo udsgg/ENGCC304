@@ -42,14 +42,14 @@ int N;
 Enter value:
 27
 ```
-
+![Screenshot (95)](https://github.com/udsgg/ENGCC304/blob/main/Lab06/Screenshot%202025-07-31%20110453.png)
 
 ### Output
 ```bash
 ลำดับเลขคี่จาก 1 ถึง 27:
 1 3 5 7 9 11 13 15 17 19 21 23 25 27 
 ```
-
+![Screenshot (96)](https://github.com/udsgg/ENGCC304/blob/main/Lab06/Screenshot%202025-07-31%20110506.png)
 
 ## TEST CASE
 ### Input
@@ -57,8 +57,15 @@ Enter value:
 Enter value:
 24
 ```
+
+![Screenshot (97)](https://github.com/udsgg/ENGCC304/blob/main/Lab06/Screenshot%202025-07-31%20110933.png)
+
+
 ### Output
 ```bash
 ลำดับเลขคู่จาก 24 ถึง 0:
 24 22 20 18 16 14 12 10 8 6 4 2 0
 ```
+
+
+![Screenshot (98)](https://github.com/udsgg/ENGCC304/blob/main/Lab06/Screenshot%202025-07-31%20110946.png)
