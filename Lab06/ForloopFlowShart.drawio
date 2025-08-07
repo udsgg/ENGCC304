@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="D1HUkgYQc_nJuEIEyVJr">
+    <mxGraphModel dx="1500" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-1" target="7YKlqXSJIPWcTnffhPHH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-1" value="เริ่มต้น" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-2" target="7YKlqXSJIPWcTnffhPHH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-2" value="กรุณากรอกค่าตัวเลข" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-4" target="7YKlqXSJIPWcTnffhPHH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-4" target="7YKlqXSJIPWcTnffhPHH-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-4" value="เป็นตัวเลขหรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.75" y="170" width="137.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-8" target="7YKlqXSJIPWcTnffhPHH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="608" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-8" value="กรุณาใส่แต่ตัวเลข" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-13" value="ไม่" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-15" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-16" target="7YKlqXSJIPWcTnffhPHH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-16" target="7YKlqXSJIPWcTnffhPHH-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-16" value="เป็นเลขคี่หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.75" y="270" width="137.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-17" target="7YKlqXSJIPWcTnffhPHH-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="677" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-17" value="แสดงลำดับเลขคี่จาก 1 ถึงตัวเลขที่กำหนด" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="340" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-18" value="จบการทำงาน" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-21" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-22" target="7YKlqXSJIPWcTnffhPHH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-22" value="แสดงลำดับเลขคู่จากตัวเลขที่กำหนดถึง 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="380" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-24" value="ไม่" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YKlqXSJIPWcTnffhPHH-25" target="7YKlqXSJIPWcTnffhPHH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YKlqXSJIPWcTnffhPHH-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="450" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
