@@ -5,7 +5,7 @@
 <br />- หากผู้ใช้กรอกเลขคู่ ให้โปรแกรมแสดงลำดับตัวเลขตั้งแต่ N ถึง 0 และให้แสดงเฉพาะตัวเลขคู่เท่านั้น
 
 
-## FIX CODE
+## FIXED CODE
 ```c++
 #include <stdio.h>
 
@@ -35,6 +35,9 @@ int N;
 }
 
 ```
+## FLOWSHART
+![Screenshot (94)](<img width="725" height="707" alt="image" src="https://github.com/user-attachments/assets/160737e8-1126-46c3-b049-87e3f033ed95" />)
+
 
 ## TEST CASE
 ### Input
