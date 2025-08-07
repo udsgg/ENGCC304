@@ -36,7 +36,7 @@ int N;
 
 ```
 ## FLOWSHART
-![Screenshot (94)](<img width="725" height="707" alt="image" src="https://github.com/user-attachments/assets/160737e8-1126-46c3-b049-87e3f033ed95" />)
+<img width="725" height="707" alt="image" src="https://github.com/user-attachments/assets/d42e2df1-d630-4f49-83ee-01171c9ad6a2" />
 
 
 ## TEST CASE
