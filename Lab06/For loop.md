@@ -36,7 +36,8 @@ int N;
 
 ```
 ## FLOWSHART
-<img width="772" height="715" alt="image" src="https://github.com/user-attachments/assets/13536b4b-6f5b-4e3c-8de1-5258223c8f8c" />
+<img width="694" height="690" alt="image" src="https://github.com/user-attachments/assets/25482759-5cd1-4202-9ca0-187e8d49e773" />
+
 
 
 ## TEST CASE
