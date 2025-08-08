@@ -108,7 +108,8 @@ int main() {
 ```
 
 ## FLOWSHART
-![game](https://github.com/user-attachments/assets/6308f01f-a31b-4073-a260-5610c38e12b9)
+![game](https://github.com/user-attachments/assets/d3d7d634-b162-468b-8955-f3a5ddb6189f)
+
 
 
 ## TEST CASE
