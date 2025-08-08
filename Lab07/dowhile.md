@@ -108,7 +108,7 @@ int main() {
 ```
 
 ## FLOWSHART
-<img width="1066" height="1771" alt="game" src="https://github.com/user-attachments/assets/929d0257-b971-4e98-9da6-25da7c7b2fb0" />
+![game](https://github.com/user-attachments/assets/6308f01f-a31b-4073-a260-5610c38e12b9)
 
 
 ## TEST CASE
