@@ -67,7 +67,7 @@ int main() {
 ```
 
 ## FLOWSHART
-![game](<img width="2211" height="1111" alt="ssss drawio" src="https://github.com/user-attachments/assets/3624e029-b92b-46b8-942c-c52e4b681f58" />)
+!(<img width="2211" height="1111" alt="ssss drawio" src="https://github.com/user-attachments/assets/3624e029-b92b-46b8-942c-c52e4b681f58" />)
 
 
 ## TEST CASE
