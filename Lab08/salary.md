@@ -66,10 +66,6 @@ int main() {
 }
 ```
 
-## FLOWSHART
-
-
-
 ## TEST CASE
 ### Input
 ```bash
