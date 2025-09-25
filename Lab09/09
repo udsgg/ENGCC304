@@ -3,29 +3,51 @@
 
 ## FIX CODE
 ```c++
--
+#include <stdio.h>
+
+int main() {
+    int Num[100];
+    int x;
+    int size;
+    printf("Enter array size : ");
+    scanf("%d", &size); //กำหนดขนาดของอาเรย์
+    for (int x = 0; x < size; x++){
+        printf("Enter number : ");
+        scanf("%d", &Num[x]); //รับค่าตัวเลขเก็บในอาเรย์ตามขนาดที่กำหนด
+    }
+    printf("----------------\n");
+    printf(" Index:  ") ;
+    for ( int i = 0 ; i < size ; i++ ) {
+        printf( "%2d" , i ) ; //แสดงตำแหน่งของอาเรย์
+    }
+    printf("\nValues: ");
+    for (int x = 0; x < size; x++){
+        if (Num[x]  == 2 || Num[x] == 3 || Num[x] == 5 || Num[x] == 7) //ถ้าเป็นเลขเฉพาะให้แสดงตัวเลขออกมา 
+            printf(" %d", Num[x]);
+        else if (Num[x] % 2 == 0 || Num[x] % 3 == 0 || Num[x] % 5 == 0 || Num[x] % 7 == 0) //ถ้าไม่ใช่เลขเฉพาะให้แสดง # แทน
+            printf(" #");
+        else
+            printf(" %d", Num[x]); //
+    }
+    return 0;
+}
 ```
 
 ## TEST CASE
 ### Input
 ```bash
-Enter N :
-6
-Enter value[0] :
-19
-Enter value[1] :
-18
-Enter value[2] :
-27
-Enter value[3] :
-15
-Enter value[4] :
-4
-Enter value[5] :
-2
+Enter array size : 8
+Enter number : 1
+Enter number : 2
+Enter number : 3
+Enter number : 4
+Enter number : 5
+Enter number : 6
+Enter number : 7
+Enter number : 8
 ```
 ### Output
 ```bash
-Index:  0  1  2  3  4  5
-Array: 19  #  #  #  #  2
+ Index:   0 1 2 3 4 5 6 7
+Values:  1 2 3 # 5 # 7 #
 ```  
