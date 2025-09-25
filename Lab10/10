@@ -1,1 +1,72 @@
+## โจทย์
 
+จงเขียนโปรแกรมเพื่อรับคำจากผู้ใช้งาน เพื่อตรวจสอบว่า คำที่กรอกมามีลักษณะเป็นคำหรือวลีที่สามารถอ่านจากหลังไปหน้าหรือหน้าไปหลังแล้วยังคงความหมายเหมือนเดิมได้ โดยที่ หากคำนั้นสามารถอ่านจากหน้าไปหลังหรือหลังไปได้ ให้แสดงผลลัพธ์ว่า Pass แต่หากทำไม่ได้ให้ขึ้นว่า Not Pass
+
+
+## FIX CODE
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    printf("Enter your word : ");
+    char word[100];
+    char check;
+    scanf("%s", word);
+    int length = strlen(word);
+    int m = length / 2; //หาค่ากึ่งกลางของสตริง
+    for (check = 0; check < m; check++) { //เช็คค่าตัวอักษรจนถึงตรงกลาง
+        if (word[check] != word[length - check - 1]) { //เช็คค่าตัวอักษรซ้ายและขวา
+            printf("Not pass\n");
+        } 
+        else if (check == m - 1) { //จนถึงตัวสุดท้ายก่อนถึงตรงกลาง
+            printf("Pass\n");
+        }
+    }
+    return 0;
+}
+```
+
+## TEST CASE
+### Input
+```bash
+Enter word:
+radar
+```
+### Output
+```bash
+Pass.
+```
+
+## TEST CASE
+### Input
+```bash
+Enter word:
+hello
+```
+### Output
+```bash
+Not Pass.
+```
+
+## TEST CASE
+### Input
+```bash
+Enter word:
+Radar
+```
+### Output
+```bash
+Pass.
+```
+
+## TEST CASE
+### Input
+```bash
+Enter word:
+here
+```
+### Output
+```bash
+Not Pass.
+```
